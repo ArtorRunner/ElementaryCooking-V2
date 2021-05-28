@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arsir.elementarycooking.FragmentActivityOne.BlankFragment_Bakery">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_3" />
+
+            <TextView
+                android:id="@+id/chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="Выпечка"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Выпечка -один из старинных способов приготовления пищи. Раньше для запекания использовались горячие угли, тандыры, очаги, печи. Выпечкой называется приготовление продуктов в различных духовых шкафах и жаровнях. При этом на продуктах обычно появляется аппетитная, золотистого цвета корочка. "
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Сведения"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Чаще всего, овощи в фольге готовы уже через 10 – 15 минут запекания, рыба в фольге печется за 25 минут, курица обычно готова к употреблению через 40 минут, а говядина (1 кг) готовится около часа. Блюда в фольге запекаются на противне, решетке, или в сковороде под крышкой, в зависимости от рецепта."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Типы еды"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="У каждого типа продуктов есть свои определенные правила для запекания. Так, например, рыбу в этом случае потрошат, очищают от чешуи, моют. После подсушивания разрезают на куски, обильно солят, панируют в муке с пряностями и заворачивают в фольгу."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_header4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/food_bkr" />
+
+            <TextView
+                android:id="@+id/middleText_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Потрошеную куриную тушку моют и подсушивают, посыпают пряностями и обвязывают ниткой (чтоб фольга не разорвалась). Дальше действуют по шаблону."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/middleText_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Овощи чистят, моют, подсушивают, при необходимости нарезают на куски. Слегка подсаливают, заворачивают в фольгу и помещают в духовку."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/foter_jrb_3" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

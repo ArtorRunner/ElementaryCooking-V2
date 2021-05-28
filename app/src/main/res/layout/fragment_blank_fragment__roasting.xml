@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arsir.elementarycooking.FragmentActivityOne.BlankFragment_Roasting">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_header"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_2" />
+
+            <TextView
+                android:id="@+id/chapter"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="Обжаривание"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Обжаривание sauté означает прыгать по-французски. Когда вы жарите, вам надо, чтобы еда двигалась. Бросание или переворачивание пищи на сковороде гарантирует ее равномерное приготовление, а также помогает сохранять сковороду горячей."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/middleText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Причина, по которой важно держать еду в движении, состоит в том, что когда горячая пища встречается с более холодной, их температура в конечном итоге становилась примерно средней. Более холодная пища нагревается, а горячая охлаждается."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_header3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/food_rst" />
+
+            <TextView
+                android:id="@+id/chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Тонкости обжарки"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="При обжаривании важно сильно разогреть сковороду, затем добавить масло, а потом пищу в сковороду.  Чтобы избежать перегрузки или переполнения сковороды. Чтобы достичь желаемого подрумянивания пищи, сковорода должна оставаться горячей в течение всего процесса приготовления. Слишком много еды на сковороде рассеивает тепло, в результате чего еда испаряется или кипятится, а не обжаривается."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Степени прожарки говядины"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:id="@+id/SeekBarLiner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="349dp"
+                    android:layout_height="113dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/meat_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_Degree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Raw"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Ter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView_footer"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/foter_jrb_2" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

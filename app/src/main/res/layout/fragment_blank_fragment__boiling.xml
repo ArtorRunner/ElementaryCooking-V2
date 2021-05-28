@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arsir.elementarycooking.FragmentActivityTwo.BlankFragment_Boiling">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_header"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_5" />
+
+            <TextView
+                android:id="@+id/chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="Варка"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Варить поддерживая медленный огонь — означает, что изначально нужно довести жидкость до состояния чуть ниже кипения, затем вы увидите много маленьких пузырьков, которые образуются и поднимаются на поверхность. Если жидкость в вашей кастрюле закипит, убавьте огонь, чтобы поддерживать это мягкое пузырение."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Технологический процесс "
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Кипячение относится к определенному температурному диапазону, и это достаточно технологический процесс варки, который полезен для приготовления овощей, супа, тушеного мяса и даже больших кусков мяса. В кулинарном искусстве варить что-то на медленном огне означает варить его в жидкости при температуре от 80 до 100 ° С."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/middleText_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="Вы часто будете видеть рецепты, в которых будет написано, что нужно довести жидкость до кипения, а затем уменьшить огонь. Это гарантирует, что жидкость поднялась до нужной температуры. Затем вы уменьшите огонь и будете держать кастрюлю в таком положении, где будет только легкое бульканье."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_header5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/food_blg" />
+
+            <TextView
+                android:id="@+id/chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Типы еды"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Процесс варки на медленном огне обычно используется для приготовления риса. Это идеальный способ приготовления бульона. Также идеально подходит для тушения жестких кусков мяса. Сваренное в крутом кипятке мясо, становится жестким и тягучим, потому что более высокая температура приводит к денатурации белков. А денатурация разрушает структуру белков. Так что варить мясо на медленном огне еще и полезно."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_footer"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/foter_bt_1" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

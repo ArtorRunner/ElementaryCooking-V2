@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arsir.elementarycooking.OptionalActivity_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_8" />
+
+            <TextView
+                android:id="@+id/chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="Как использовать нож"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Один из главных навыков на кухне это умение пользоваться ножом. Будь вы новичок или уже разбираетесь, оттачивание навыков работы с ножами важно. Не только для вашей безопасности, но и для того, чтобы ваши блюда стали намного лучше. Ингредиенты, которые нарезаны равномерно, готовятся с одинаковой скоростью, и в результате получается блюдо, которое готовится должным образом. Поскольку каждый кусок пищи нарезается одинаковым образом, готовое блюдо будет приятно презентовано."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Как держать нож"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Указательный палец полностью обернут вокруг лезвия. Указательный палец и большой палец должны быть напротив друг друга по обе стороны от лезвия, в то время как остальные три пальца как бы слабо закручены вокруг ручки."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/middleText_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Вы должны двигать нож в основном большим и указательным пальцами. Если вы обнаружите, что крепко держитесь за рукоять ножа, просто расслабьтесь и ослабьте хватку. С практикой вы привыкнете к этому захвату, и вскоре любой другой захват будет вам неестественным."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/header2"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:src="@drawable/knife_img" />
+
+            <TextView
+                android:id="@+id/chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Расстановка пальцев"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Расстановка пальцев при подаче продуктов под нож так же очень важна. Когда одна ваша рука держит нож она называется «направляющей», и ее задача — удерживать пищу, чтобы она не скользила по разделочной доске. Что ставит эту руку в исключительно опасное положение. Благодаря быстрому перемещению лезвия ножа вверх и вниз, вам необходимо надежно держать кончики пальцев, при этом сохраняя способность крепко удерживать пищу."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/middleText_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Ваши пальцы должны быть согнуты, образовывая так называемую «клешню». При этом кончики пальцев должны быть прямо-перпендикулярно к продукту. Сторона лезвия ножа должна опираться на костяшки первых фалангах направляющей руки, помогая удерживать лезвие перпендикулярно разделочной доске. Так вы никогда не порежетесь."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_8"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="391dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

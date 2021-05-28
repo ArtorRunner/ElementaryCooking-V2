@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arsir.elementarycooking.FragmentActivityTwo.BlankFragment_Extinction">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_header"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image_png_6" />
+
+            <TextView
+                android:id="@+id/chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="Тушение"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Хотя это можно сделать на плите, тушение лучше всего проводить в духовке, потому что тепло полностью окружает кастрюлю и заставляет пищу готовиться более равномерно, чем если бы ее нагревали только снизу."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Начните с обжаривания"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Поскольку влажное тепло не допускает различных реакций подрумянивания, которые вызывает сухое тепло, давая вареному мясу коричневую внешнюю корку, которая также помогает раскрывать сложные вкусы и ароматы, перед тушением принято обжаривать мясо на сковороде с небольшим количеством горячего масла. Этот шаг помогает развить вкус, а также сделать мясо более привлекательным визуально."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Технологический процесс "
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="ПоскольТушение блюд — хороший выбор технологии приготовления более жестких ингредиентов. Соединительные ткани ингредиентов, которые могут быть жесткими при неправильном приготовлении, медленно растворяются при длительном и медленном воздействии влажного тепла. В итоге вы получите нежный кусок пищи, скажем мяса."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_header6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/food_ext" />
+
+            <TextView
+                android:id="@+id/chapter4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Мясо"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Следует помнить, что соление мяса перед приготовлением блюд из тушеного мяса, может затруднить подрумянивание. Таким образом, чтобы правильно приправить мясо, может быть предпочтительнее приправить его через саму кулинарную жидкость, а не напрямую."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chapter5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Овощи"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/middleText_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="serif"
+                android:text="Тушение также является хорошим способом приготовления блюд из жестких, волокнистых овощей, таких как сельдерей, морковь, пастернак и так далее. Тушеные овощи обычно обжаривают, заливают жидкостью и варят в закрытой кастрюле в духовке."
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_footer"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/foter_bt_2" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
